@@ -1,0 +1,32 @@
+{
+  "name": "cst-unique-id",
+  "version": "1.0.0",
+  "description": "Create unique IDs for slugs, passwords, and more with ease. Our package allows you to customize string length, include numbers, and special characters to fit your needs.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sauraverse/npm-package.git"
+  },
+  "keywords": [
+    "npm",
+    "unique",
+    "id",
+    "slug",
+    "password",
+    "generator",
+    "customisable",
+    "unique",
+    "id",
+    "generator"
+  ],
+  "author": "Saurav Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sauraverse/npm-package/issues"
+  },
+  "homepage": "https://github.com/sauraverse/npm-package#readme"
+}
