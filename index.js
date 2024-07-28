@@ -1,4 +1,4 @@
- export default genId =(length = 40, includeSpecialChars = true, includeNumbers = true)=>{
+ export default function genId(length = 40, includeSpecialChars = true, includeNumbers = true){
 
     const letters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     const numbers = '0123456789';
