@@ -20,7 +20,7 @@ v8.16.0
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ## Installation
 
@@ -44,11 +44,11 @@ $ npm install -S cst-unique-id
 
 `url`
 
-| Type | Default value |
+| Type | Default value(40characters unique str) |
 | --- | --- |
-| string | '' |
+| string | 'E!wcDV%@Sh4Dd@KQm_5!?vNoQ@CjJUO@i3IuwB_%' |
 
-If present, the request will be performed as soon as the component is mounted
+If present, the request will be performed as soon as the function is called
 
 Example:
 
@@ -61,32 +61,8 @@ console.log(genId(15, false)); // Generates a 15-character password without numb
 console.log(genId(15, false, false)); // Generates a 15-character password without numbers and without special characters
 ```
 
-## Usage
-
-### Serving the app
-
-```sh
-$ npm start
-```
-
-### Running the tests
-
-```sh
-$ npm test
-```
-
-### Building a distribution version
-
-```sh
-$ npm run build
-```
-
-This task will create a distribution version of the project
-inside your local `dist/` folder
-
 ## Contributing
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 1.  Fork it!
 2.  Create your feature branch: `git checkout -b my-new-feature`
@@ -96,17 +72,6 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 6.  Submit a pull request :sunglasses:
 
 
-## Built With
-
-* Dropwizard - Bla bla bla
-* Maven - Maybe
-* Atom - ergaerga
-* Love
-
-## Versioning
-
-We use [npm version] for versioning. For the versions available, see the [tags on this repository](https://github.com/sauraverse/npm-package).
-
 ## Authors
 
-* **Saurav K.** - *Initial work* - [Saurav K.](https://sauraverse.com)
+* **Saurav K.** - *Portfolio* - [sauraverse](https://sauraverse.com)
